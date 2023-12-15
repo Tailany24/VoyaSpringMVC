@@ -1,0 +1,112 @@
+/* Imagem de fundo*/
+
+  /* Centralizar texto e deixar laterais retas */
+  main {
+        padding: 20px;
+        text-align: justify;
+        background-image: url("Imagem/oceano.jpg");
+        background-size: cover;
+    }
+
+    .centered-content {
+        width: 80%; /* Definir a largura máxima do conteúdo centralizado */
+        margin: 0 auto; /* Centralizar horizontalmente */
+    }
+
+    .vertical-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    } 
+
+    .justify-text {
+        text-align: justify;
+    }
+
+
+
+
+#acesso {
+    color: #ffffff;
+    height: 28px;
+    font-size: 15px;
+   
+}
+
+small .p {
+    font-size: 12px; /* Diminuir o tamanho da fonte do texto dentro do elemento <small>*/
+}
+
+p {
+    font-size: 18px; /* Aumentar o tamanho da fonte do parágrafo */
+}
+
+main {
+    flex-grow: 1;
+    color: white;
+    
+}
+
+
+/* Barra de navegação */
+.bg-menu {
+    background-image: url('Imagem/oceano.jpg'); /* Defina o caminho da imagem de fundo */
+    background-size: cover; /* Define como a imagem de fundo será dimensionada */
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+    background-attachment: fixed; /* Fixa a imagem de fundo, para que ela não role com a página */
+    
+    
+}
+
+
+.navbar-nav .nav-link {
+    color: white;
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+    font-size: 18px; /* Tamanho da fonte */
+    margin-right: 70px; /* Aumento do espaçamento entre as frases */
+    transition: color 0.3s; /* Efeito de transição suave na mudança de cor */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff07ff; /* Cor do link ao passar o mouse */
+}
+
+.costum-margem {
+    margin-top: 150px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+
+.custom-img {
+    max-width: 100%;
+    min-height: 100%;
+}
+/* Página cadastro */
+
+
+
+/* Rodapé */
+footer {
+    
+    background-image: url('Imagem/oceano.jpg'); /* Defina o caminho da imagem de fundo */
+    background-size: cover; /* Define como a imagem de fundo será dimensionada */
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+    background-attachment: fixed; /* Fixa a imagem de fundo, para que ela não role com a página */
+    padding: 15px 0 0;
+    bottom: 0;
+    font-size: 12px;
+    color: white;
+}
+
+.style-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.style-list li {
+    padding-bottom: 4px;
+}
+
