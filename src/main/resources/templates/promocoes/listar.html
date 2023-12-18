@@ -183,8 +183,8 @@ footer {
 	
 	<!-- Linhas da tabela com dados do cliente -->
 				<tr th:each="promocoes : ${promocoes}">	
-					<td th:text="${promocoes.usuario.nome}"></td>
-					<td th:text="${promocoes.destino.destino_viagem}"></td>
+					<td th:text="${promocoes.usuario?.nome}"></td>
+					<td th:text="${promocoes.destino?.destino_viagem}"></td>
 					<td th:text="${promocoes.descricao}"></td>
 					<td th:text="${promocoes.preco}"></td>
 					
