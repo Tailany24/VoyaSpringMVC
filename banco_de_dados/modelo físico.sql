@@ -12,6 +12,7 @@ CREATE TABLE Usuarios (
 
 CREATE TABLE Destinos (
     ID_Destinos INT AUTO_INCREMENT PRIMARY KEY,
+    ID_Usuarios INT,
     Formas_de_pagamento VARCHAR(255),
     Destino_da_viagem VARCHAR(255),
     Data_de_ida DATE,
