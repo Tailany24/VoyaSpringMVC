@@ -172,7 +172,7 @@
 
             <div class="form-group mb-3">
 				<label for="usuario" class="form-label">Usuario</label>
-				<!-- <select th:field="*{usuario}" class="form-control"> -->
+				<select th:field="*{usuario}" class="form-control"> 
 					<option th:each="usuario : ${usuario}" th:text="${usuario.nome}" th:value="${usuario.id}"></option>
 				</select>
 			</div>
